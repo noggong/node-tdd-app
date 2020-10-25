@@ -4,8 +4,8 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-        "test": "jset",
-        "start": "node server.js"
+        "test": "jest",
+        "start": "nodemon server.js"
     },
     "author": "",
     "license": "ISC",
@@ -16,6 +16,7 @@
     "devDependencies": {
         "jest": "^26.6.1",
         "node-mocks-http": "^1.9.0",
-        "supertest": "^5.0.0"
+        "supertest": "^5.0.0",
+        "nodemon": "^2.0.6"
     }
 }
